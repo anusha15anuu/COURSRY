@@ -1,7 +1,6 @@
 Welcome alll
 ###############################################################################################################################################
 To setup basic tools:
-
 note:plz turn off all security thinks like :anti-virus
 
 open powershell ->run as admin ->(enter some commandslike set-by-step )
