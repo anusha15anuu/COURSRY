@@ -1,0 +1,31 @@
+Welcome alll
+####################################################
+To setup basic tools:
+
+note:plz turn off all security thinks like :anti-virus
+
+open powershell ->run as admin ->(enter some commandslike set-by-step )
+->Get-ExecutionPolicy  
+->Restricted
+->Set-ExecutionPolicy AllSigned
+
+note:plz allow run background script  
+press 'A' for eveytimeif its asking
+
+ 
+->Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+
+->Paste the copied text into your shell and press Enter.
+->Wait a few seconds for the command to complete.
+->If you don't see any errors, you are ready to use Chocolatey! Type choco or choco -? 
+
+note:plz allow run background script  
+press 'A'(yes to all) for eveytimeif its asking
+
+->choco install virtualbox
+->choco install vagrant
+->choco install git
+->choco install jdk8
+->choco install maven
+->choco install sublimetext3.app(if its asking update plz do)
